@@ -32,3 +32,22 @@ You can download the CIFAR-10 dataset from Kaggle at the following link:
 
 - **CIFAR-10 Dataset on Kaggle**: [https://www.kaggle.com/datasets/krishnaik06/cifar-10](https://www.kaggle.com/datasets/krishnaik06/cifar-10)
 
+## Sample Output Images
+
+### Test Image 1: [True Label] vs Predicted Labels
+
+![Test Image 1](https://github.com/Raghu20082002/Object-Detection-in-Deep-Learning/blob/00ec48f7960ffb81f4c8071dadca07aaae8a585b/object1.png)
+- **True Label**: [Cat]
+- **VGG16 Prediction**: [Frog]
+- **ResNet50 Prediction**: [Cat]
+- **MobileNetV2 Prediction**: [cat]
+- **YOLO-like Prediction**: [cat]
+
+### Test Image 2: [True Label] vs Predicted Labels
+
+![Test Image 2](https://github.com/Raghu20082002/Object-Detection-in-Deep-Learning/blob/00ec48f7960ffb81f4c8071dadca07aaae8a585b/object2.png)
+- **True Label**: [Ship]
+- **VGG16 Prediction**: [Frog]
+- **ResNet50 Prediction**: [Automobile]
+- **MobileNetV2 Prediction**: [Automobile]
+- **YOLO-like Prediction**: [ship]
